@@ -1,12 +1,50 @@
-# React + Vite
+# Brian's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is my personal portfolio website built with React and Vite. It showcases my skills, projects, and experience as a Computer Science student with expertise in web development, open source contributions, and AI/ML projects.
 
-Currently, two official plugins are available:
+## Features
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI**: Clean and professional interface with smooth animations
+- **Portfolio Showcase**: Filterable project gallery with categories for Web Design, Open Source Contributions, and AI-ML projects
+- **Skills Section**: Visual representation of technical skills and proficiency levels
+- **Contact Form**: Easy way for potential employers or collaborators to reach out
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: Frontend library for building the user interface
+- **Vite**: Next generation frontend tooling for faster development
+- **CSS3**: Custom styling with modern CSS features
+- **Responsive Design**: Media queries for optimal viewing on all devices
 
-## Expanding the ESLint configuration
+## Project Structure
+- `src/components`: React components for different sections of the portfolio
+- `src/assets`: Images, icons, and other static resources
+- `src/App.jsx`: Main application component
+- `src/main.jsx`: Entry point of the application
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup and Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/brianchristy/portfolio.git
+   ```
+2. Navigate to the project directory
+   ```bash
+   cd portfolio
+   ```
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## Deployment
+The site is deployed using GitHub Pages. You can visit the live site at [your-portfolio-url.com](https://your-portfolio-url.com).
+
+## Contact
+Feel free to reach out to me at brianchristopher170804@gmail.com for any questions or collaboration opportunities.
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
