@@ -313,6 +313,75 @@
   transition: width 1s ease;
 }
 
+/* Achievements Section */
+.achievements-container {
+  margin-top: 40px;
+}
+
+.achievement-item {
+  display: flex;
+  background-color: var(--background-light);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-icon {
+  font-size: 3rem;
+  margin-right: 25px;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievement-content {
+  flex: 1;
+}
+
+.achievement-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.achievement-year {
+  font-size: 1rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.achievement-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.achievement-certificate-link {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.achievement-certificate-link:hover {
+  background-color: var(--primary-color);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
 /* Certifications Section */
 .certifications-grid {
   margin-top: 40px;
